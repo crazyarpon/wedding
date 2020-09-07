@@ -5,7 +5,7 @@
  * License : MIT
  * Version : 1.3.2
  * Author : Vincent Loy <vincent.loy1@gmail.com>
- * Contributors : 
+ * Contributors :
  *  - Justin Beasley <JustinB@harvest.org>
  *  - Nathan Smith <NathanS@harvest.org>
  */
@@ -115,10 +115,10 @@
      */
     simplyCountdown = function (elt, args) {
         var parameters = extend({
-                year: 2015,
-                month: 6,
-                day: 28,
-                hours: 0,
+                year: 2020,
+                month: 10,
+                day: 18,
+                hours: 13,
                 minutes: 0,
                 seconds: 0,
                 words: {
@@ -273,7 +273,7 @@
 if (window.jQuery) {
     (function ($, simplyCountdown) {
         'use strict';
-
+        
         function simplyCountdownify(el, options) {
             simplyCountdown(el, options);
         }
