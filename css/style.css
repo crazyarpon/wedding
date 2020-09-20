@@ -370,9 +370,10 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .fh5co-heading h2 {
   color: #fff;
 }
+#fh5co-couple-story .fh5co-heading span,
 #fh5co-counter .fh5co-heading span,
-#fh5co-event .fh5co-heading span {
-  color: rgba(255, 255, 255, 0.5);
+#fh5co-gallery .fh5co-heading span {
+  color: #fff;
   text-transform: uppercase;
   font-size: 13px;
   letter-spacing: 2px;
@@ -1017,7 +1018,11 @@ form label {
 }
 
 .fh5co-section-gray {
-  background: rgba(0, 0, 0, 0.04);
+  background: #6E6E6DFF;
+}
+
+.fh5co-section-pink {
+  background: #FAD0C9FF;
 }
 
 .couple-wrap {
@@ -1194,6 +1199,12 @@ form label {
   line-height: 1.5;
   color: #828282;
 }
+.fh5co-section-gray .fh5co-heading p,
+.fh5co-section-gray h3,
+.fh5co-section-gray {
+    color: #fff;
+}
+
 .fh5co-heading span {
   text-transform: uppercase;
   font-size: 13px;
@@ -1848,5 +1859,3 @@ form label {
     display: flex;
     align-items: center;
 }
-
-/*# sourceMappingURL=style.css.map */
