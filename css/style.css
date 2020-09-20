@@ -318,6 +318,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
+    background-position: center center !important;
   }
 }
 .fh5co-cover .display-t,
@@ -694,7 +695,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-gallery-list li a:hover:before {
   background: rgba(0, 0, 0, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+#fh5co-gallery-list li a .image-gallery-card--text {
   width: auto;
   bottom: 2em;
   left: 2em;
@@ -703,24 +704,24 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  #fh5co-gallery-list li a .image-gallery-card--text {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+#fh5co-gallery-list li a .image-gallery-card--text span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 13px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+#fh5co-gallery-list li a .image-gallery-card--text h2 {
   color: #fff;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  #fh5co-gallery-list li a .image-gallery-card--text h2 {
     font-size: 20px;
   }
 }
@@ -1837,6 +1838,15 @@ form label {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.venue h2.address {
+    font-size: 40px !important;
+}
+
+.fh5co-map {
+    display: flex;
+    align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
