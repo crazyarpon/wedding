@@ -1888,8 +1888,8 @@ form label {
 
     .simply-countdown > .simply-section {
       /* coutndown blocks */
-      width: 75px;
-      height: 75px;
+      width: 65px;
+      height: 65px;
     }
 
     .simply-countdown > .simply-section > div {
@@ -1900,11 +1900,12 @@ form label {
 
     .simply-countdown > .simply-section .simply-amount {
       font-size: 25px;
+      line-height: 1.2
       /* amounts */
     }
 
     .simply-countdown > .simply-section .simply-word {
-      font-size: 11px;
+      font-size: 9px;
       /* words */
     }
 
@@ -1938,5 +1939,15 @@ form label {
 
     #fh5co-things_to_remember .instructions {
         margin-top: 45px;
+    }
+
+    #fh5co-event .fh5co-heading h2,
+    #fh5co-event .fh5co-heading h3 {
+        font-family: cursive;
+        color: #fff;
+    }
+
+    #fh5co-logo {
+        text-align: center;
     }
 }
