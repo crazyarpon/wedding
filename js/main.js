@@ -249,15 +249,14 @@
 		} );
 	};
 
-
 	$(function(){
-		mobileMenuOutsideClick();
+		// mobileMenuOutsideClick();
 		parallax();
 		//offcanvasMenu();
-		burgerMenu();
+		// burgerMenu();
 		contentWayPoint();
-		dropdown();
-		testimonialCarousel();
+		// dropdown();
+		// testimonialCarousel();
 		goToTop();
 		loaderPage();
 		counter();

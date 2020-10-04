@@ -1934,7 +1934,17 @@ form label {
     }
 
     #fh5co-counter {
-      padding: 2em 0;
+      padding: 0;
+    }
+
+    #fh5co-counter .container {
+      padding: 0;
+      margin: 0;
+      width: 100%
+    }
+
+    #fh5co-counter .container .row {
+        line-height: 0;
     }
 
     #fh5co-things_to_remember .instructions {
@@ -1949,5 +1959,16 @@ form label {
 
     #fh5co-logo {
         text-align: center;
+    }
+
+    .fh5co-map .get-direction {
+        position: relative;
+        bottom: 67px;
+        height: 0;
+    }
+
+    #fh5co-counter .display-tc .get-direction .btn {
+        color: #fff !important;
+        background: #F14E95 !important;
     }
 }
