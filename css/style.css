@@ -1982,6 +1982,8 @@ form label {
 
     .image-gallery-card--heading {
         color: #E4F14E;
+        display: block;
+        font-weight: bolder;
     }
 
 }
