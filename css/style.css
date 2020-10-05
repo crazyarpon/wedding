@@ -1971,4 +1971,17 @@ form label {
         color: #fff !important;
         background: #F14E95 !important;
     }
+
+    figcaption {
+        color: #E4F14E;
+    }
+
+    #fh5co-footer {
+        background-size: 100%;
+    }
+
+    .image-gallery-card--heading {
+        color: #E4F14E;
+    }
+
 }
