@@ -669,9 +669,9 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   margin: 0 0 10px 1%;
   list-style: none;
-  min-height: 400px;
+  min-height: 258px;
   background-position: center center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   float: left;
   clear: left;
@@ -687,7 +687,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-gallery-list li a {
-  min-height: 400px;
+  min-height: 258px;
   padding: 2em;
   position: relative;
   width: 100%;
@@ -1989,6 +1989,8 @@ form label {
     #fh5co-gallery-list li.image-gallery-card-name {
         min-height: auto;
         padding-top: 35px;
+        text-align: center;
+        width: 100%;
     }
 
     #fh5co-gallery-list li.image-gallery-card-name span {
