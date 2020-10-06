@@ -671,7 +671,7 @@ h1, h2, h3, h4, h5, h6, figure {
   list-style: none;
   min-height: 258px;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   float: left;
   clear: left;
