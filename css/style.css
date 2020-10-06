@@ -1986,4 +1986,11 @@ form label {
         font-weight: bolder;
     }
 
+    #fh5co-gallery-list li.image-gallery-card-name {
+        min-height: auto;
+    }
+
+    #fh5co-gallery-list li.image-gallery-card-name span {
+        color: #F14E95;
+    }
 }
